@@ -1,0 +1,201 @@
+﻿procedure Test1;
+  var TFMain : OleVariant;
+  var attr : OleVariant;
+begin
+  attr := Log.CreateNewAttributes();
+  attr.BackColor := BuiltIn.clRed;
+  attr.FontColor := BuiltIn.clWhite;
+  attr.Underline := True;
+
+  TestedApps.TestEnvironment_TD32_.Run(1, true);//1
+  TFMain := Aliases.TestEnvironment_TD32_.FMain;
+  TFMain.Maximize;//2
+  TFMain.bbEdits.DoClick();//3
+
+  with TFMain.MDIClient.FEdits.sbMain do 
+  begin
+    VScroll.Pos := 0;
+    pMainPanel.mTest.mTestEdit.TcxCustomInnerMemo.SetFocus();//4
+    pMainPanel.mTest.mTestEdit.TcxCustomInnerMemo.Keys('sdfas[Enter]nsdfsdf');//5
+    pButtonsPanel.TcxButton_mTest.ClickButton;//6
+    //7
+    if (pLabelsPanel.WaitWindow('TcxLabel', 'sdfas'#13#10'nsdfsdf', 7).Exists) then
+      Log.Message('Значение поля Memo выведено верно.','',pmHighest)
+    else
+      Log.Message('Значение поля Memo выведено неверно','',pmHighest,attr);
+
+    pMainPanel.edTest.edTestEdit.TcxCustomInnerTextEdit.Keys('sdfasnsdfsdf');//8
+    pButtonsPanel.TcxButton_edTest.ClickButton;//9
+    //10
+    if (pLabelsPanel.WaitWindow('TcxLabel', 'sdfasnsdfsdf', 1).Exists) then
+      Log.Message('Значение поля TextEdit выведено верно.','',pmHighest)
+    else
+      Log.Message('Значение поля TextEdit выведено неверно','',pmHighest,attr);
+    
+    pButtonsPanel.TcxButton_cbTest.ClickButton;//11
+    //12
+    if (pLabelsPanel.WaitWindow('TcxLabel', 'False', 14).Exists) then
+      Log.Message('Значение поля CheckBox выведено верно.','',pmHighest)
+    else
+      Log.Message('Значение поля CheckBox выведено неверно','',pmHighest,attr);
+    pMainPanel.cbTest.cbTestEdit.Click();//13
+    pButtonsPanel.TcxButton_cbTest.ClickButton;//14
+    //15
+    if (pLabelsPanel.WaitWindow('TcxLabel', 'True', 14).Exists) then
+      Log.Message('Значение поля CheckBox выведено верно.','',pmHighest)
+    else
+      Log.Message('Значение поля CheckBox выведено неверно','',pmHighest,attr);
+    
+    pMainPanel.ceTest.ceTestEdit.TcxCustomInnerTextEdit.Keys('7y2e5678');//16
+    pButtonsPanel.TcxButton_ceTest.ClickButton;//17
+    //18
+    if (pLabelsPanel.WaitWindow('TcxLabel','7,2E57', 11).Exists) then
+      Log.Message('Значение поля CurrencyEdit выведено верно.','',pmHighest)
+    else
+      Log.Message('Значение поля CurrencyEdit выведено неверно','',pmHighest,attr);
+    //19   
+    pMainPanel.ccbTest.ccbTestEdit.Click(280, 10);
+    pMainPanel.ccbTest.ccbTestEdit.TcxCustomComboBoxInnerEdit.Keys('[Down] [Down] ');
+    
+    pButtonsPanel.TcxButton_ccbTest.ClickButton;//20
+    //21
+    if (pLabelsPanel.WaitWindow('TcxLabel', '1;2', 13).Exists) then
+      Log.Message('Значение поля CheckComboBox выведено верно.','',pmHighest)
+    else
+      Log.Message('Значение поля CheckComboBox выведено неверно','',pmHighest,attr);
+
+    pMainPanel.seTest.seTestEdit.TcxCustomInnerTextEdit.Keys('12');//22
+    pMainPanel.seTest.seTestEdit.Click(280,5);//23
+    //pMainPanel.seTest.seTestEdit.Keys('[Up]');//23
+    pButtonsPanel.TcxButton_seTest.ClickButton;//24
+    //25
+    if (pLabelsPanel.WaitWindow('TcxLabel', '13', 2).Exists) then
+      Log.Message('Значение поля SpinEdit выведено верно.','',pmHighest)
+    else
+      Log.Message('Значение поля SpinEdit выведено неверно','',pmHighest,attr);
+     
+     VScroll.Pos := 295;
+
+     pMainPanel.deTest.deTestEdit.Click(281, 6);//26
+  end;
+  //26
+  Aliases.TestEnvironment_TD32_.TcxDateEditPopupWindow.TcxPopupCalendar.SelectDate := 43650;
+  Aliases.TestEnvironment_TD32_.TcxDateEditPopupWindow.TcxPopupCalendar.Keys('[Enter]');
+  
+  with TFMain.MDIClient.FEdits.sbMain do 
+  begin
+    pButtonsPanel.TcxButton_deTest.ClickButton;//27
+    //28
+    if (pLabelsPanel.WaitWindow('TcxLabel', '04.07.2019', 10).Exists) then
+      Log.Message('Значение поля DateEdit выведено верно.','',pmHighest)
+    else
+      Log.Message('Значение поля DateEdit выведено неверно','',pmHighest,attr);
+
+    pMainPanel.peTest.peTestProgress.Click(40,3);//29
+    pMainPanel.peTest.peTestUp.ClickButton;//30
+    pButtonsPanel.TcxButton_peTest.ClickButton;//31
+    //32
+    if (pLabelsPanel.WaitWindow('TcxLabel', '17', 4).Exists) then
+      Log.Message('Значение поля ProgressEdit выведено верно.','',pmHighest)
+    else
+      Log.Message('Значение поля ProgressEdit выведено неверно','',pmHighest,attr);
+    //33
+    pMainPanel.lueTest.lueTestEdit.Click(260, 10);
+  end;
+  Aliases.TestEnvironment_TD32_.TcxComboBoxPopupWindow.TcxCustomLookupDBGrid.Click(100,10);//33
+  
+  TFMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit.Click(280,10);//34
+  //35
+  TFMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit.Click(260,10);
+  Aliases.TestEnvironment_TD32_.TcxComboBoxPopupWindow.TcxCustomLookupDBGrid.Click(100,10);
+  TFMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_lueTest.ClickButton;//36
+  //37
+  if (TFMain.MDIClient.FEdits.sbMain.pLabelsPanel.WaitWindow('TcxLabel', '1', 9).Exists) then
+      Log.Message('Значение поля LookUpEdit выведено верно.','',pmHighest)
+    else
+      Log.Message('Значение поля LookUpEdit выведено неверно','',pmHighest,attr);
+  
+  TFMain.MDIClient.Click(145,600);//38
+end;
+
+procedure Test2;
+  var TFMain : OleVariant;
+begin
+  TestedApps.TestEnvironment_TD32_.Run(1, true);//1
+  TFMain := Aliases.TestEnvironment_TD32_.FMain;
+  TFMain.Maximize;//2
+  TFMain.bbTreeList.DoClick();//3
+  TFMain.MDIClient.FTreeList.tlTest.wChildView[1].Collapse(2);//4
+  TFMain.MDIClient.FTreeList.tlTest.Collapse(1);//5
+  //6
+  TFMain.MDIClient.FTreeList.tlTest.wChildView[3].wChildView[2].ClickCell(1, 'name');
+  TFMain.MDIClient.FTreeList.tlTest.TcxMaskEdit.TcxCustomInnerTextEdit.Keys('fsdfw[Enter]');
+  //7
+  TFMain.MDIClient.FTreeList.tlTest.wChildView[1].wChildView[2].ClickCell(0, 'name');
+  TFMain.MDIClient.FTreeList.tlTest.TcxMaskEdit.TcxCustomInnerTextEdit.Keys('[Del][Enter]');
+  
+  TFMain.MDIClient.Click(145,600);//8
+end;
+
+procedure Test3;
+  var TFMain : OleVariant;
+  var tcxPivotGridCustomizationForm : OleVariant;
+  var tcxPivotGridFilterPopupWindow : OleVariant;
+begin
+  TestedApps.TestEnvironment_TD32_.Run(1, true);//1
+  TFMain := Aliases.TestEnvironment_TD32_.FMain;
+  TFMain.Maximize;//2
+  TFMain.bbPivotGrid.DoClick();//3
+  with TFMain.MDIClient.FPivotGrid.pgTest do
+  begin
+    ClickR(40,15);//4
+    PopupMenu.Click('Show Field List');//5
+    //6
+    Drag(530,15,680,475);
+    Drag(610,15,680,480);  
+  end;
+  Aliases.TestEnvironment_TD32_.TcxPivotGridCustomizationForm.Close();//7
+  with TFMain.MDIClient.FPivotGrid.pgTest do
+  begin
+    //8
+    Drag(275, 15, -265, 140);
+    Drag(465, 15, -280, 110);
+    //9
+    Drag(485,15,-455,5);
+    Drag(480,15,-355,5);
+    ClickR(185,15);//10
+    PopupMenu.Click('Show Field List');//11
+  end;
+  tcxPivotGridCustomizationForm := Aliases.TestEnvironment_TD32_.TcxPivotGridCustomizationForm;
+  tcxPivotGridCustomizationForm.TcxFieldListListBox.Click(70,10);//12
+  tcxPivotGridCustomizationForm.TcxGroupBox.TcxComboBox.ClickItem('Data Area');//13
+  tcxPivotGridCustomizationForm.TcxGroupBox.TcxButton.Click();//14
+  
+  tcxPivotGridCustomizationForm.TcxFieldListListBox.Click(70,10);//15
+  tcxPivotGridCustomizationForm.TcxGroupBox.TcxComboBox.ClickItem('Row Area');//16
+  tcxPivotGridCustomizationForm.TcxGroupBox.TcxButton.Click();//17
+  tcxPivotGridCustomizationForm.Close();//18
+  
+  TFMain.MDIClient.FPivotGrid.pgTest.Click(60, 90); //19
+  
+  tcxPivotGridFilterPopupWindow := Aliases.TestEnvironment_TD32_.TcxPivotGridFilterPopupWindow;
+  tcxPivotGridFilterPopupWindow.TcxPivotGridFilterPopupListBox.TcxCustomInnerCheckListBox.Click(5,5);//20
+  tcxPivotGridFilterPopupWindow.TcxPivotGridFilterPopupListBox.TcxCustomInnerCheckListBox.Click(5,45);//21
+  tcxPivotGridFilterPopupWindow.TcxButton.Click();
+  
+  //22
+  TFMain.MDIClient.FPivotGrid.pgTest.Click(10,115);
+  TFMain.MDIClient.FPivotGrid.pgTest.Click(30,130);
+  TFMain.MDIClient.FPivotGrid.pgTest.Click(560,40);//23
+  //24
+  TFMain.MDIClient.FPivotGrid.pgTest.Click(900,120);
+  TFMain.MDIClient.FPivotGrid.pgTest.Keys('300[Enter]');
+  //25
+  TFMain.MDIClient.FPivotGrid.pgTest.Click(1000,150);
+  TFMain.MDIClient.FPivotGrid.pgTest.Keys('600[Enter]');
+  //26
+  TFMain.MDIClient.FPivotGrid.pgTest.Click(1100,180);
+  TFMain.MDIClient.FPivotGrid.pgTest.Keys('400[Enter]');
+  
+  TFMain.MDIClient.Click(145,600);//27
+end;

@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="497"/>
+					<Prp name="datetime" type="D" value="43653.342616088"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="509"/>
+					<Prp name="object bottom" type="I" value="521"/>
+					<Prp name="object left" type="I" value="330"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="405"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_ceTest"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="49"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="click point x" type="I" value="367"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676173611"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_ceTest&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pButtonsPanel').Window('TcxButton', 'Значение -&gt;', 11))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="144"/>
+					<Prp name="datetime" type="D" value="43653.34257625"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="188"/>
+					<Prp name="object left" type="I" value="15"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.mTest.mTestEdit.TcxCustomInnerMemo"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4675808796"/>
+			<Prp name="remarks" type="S" value="'sdfas[Enter]nsdfsdf' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.mTest.mTestEdit.TcxCustomInnerMemo&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pMainPanel').VCLObject('mTest').VCLObject('mTestEdit').Window('TcxCustomInnerMemo', '', 1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="message" type="S" value="Значение поля Memo выведено верно."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="43653.4675873611"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 28">
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="line no" type="I" value="89"/>
+			<Prp name="message" type="S" value="Значение поля DateEdit выведено верно."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="43653.4676465972"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 30">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="458"/>
+					<Prp name="datetime" type="D" value="43653.3426513426"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="467"/>
+					<Prp name="object bottom" type="I" value="477"/>
+					<Prp name="object left" type="I" value="287"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestUp"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="94"/>
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+					<Prp name="click point x" type="I" value="296"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="94"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676526157"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestUp&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pMainPanel').VCLObject('peTest').VCLObject('peTestUp'))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="line no" type="I" value="52"/>
+			<Prp name="message" type="S" value="Значение поля CurrencyEdit выведено верно."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="43653.4676179398"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="164"/>
+					<Prp name="datetime" type="D" value="43653.3425850463"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="176"/>
+					<Prp name="object bottom" type="I" value="188"/>
+					<Prp name="object left" type="I" value="330"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="405"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_mTest"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="click point x" type="I" value="367"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4675863194"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_mTest&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pButtonsPanel').Window('TcxButton', 'Значение -&gt;', 7))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 21">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="630"/>
+					<Prp name="datetime" type="D" value="43653.3426281713"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="643"/>
+					<Prp name="object left" type="I" value="18"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="287"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit.TcxCustomInnerTextEdit"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="66"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="66"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676297917"/>
+			<Prp name="remarks" type="S" value="'12' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit.TcxCustomInnerTextEdit&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pMainPanel').VCLObject('seTest').VCLObject('seTestEdit').Window('TcxCustomInnerTextEdit', '', 1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="547"/>
+					<Prp name="datetime" type="D" value="43653.3426204861"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="560"/>
+					<Prp name="object left" type="I" value="18"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="287"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.ccbTest.ccbTestEdit.TcxCustomComboBoxInnerEdit"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="57"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="57"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676223611"/>
+			<Prp name="remarks" type="S" value="'[Down] [Down] ' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.ccbTest.ccbTestEdit.TcxCustomComboBoxInnerEdit&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pMainPanel').VCLObject('ccbTest').VCLObject('ccbTestEdit').Window('TcxCustomComboBoxInnerEdit', '', 1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="message" type="S" value="Значение поля TextEdit выведено верно."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="43653.4675978935"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="328"/>
+					<Prp name="datetime" type="D" value="43653.3426050694"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="338"/>
+					<Prp name="object bottom" type="I" value="349"/>
+					<Prp name="object left" type="I" value="15"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="86"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.cbTest.cbTestEdit"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="40"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="click point x" type="I" value="50"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="40"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676056481"/>
+			<Prp name="remarks" type="S" value="A click at point (35, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.cbTest.cbTestEdit&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pMainPanel').VCLObject('cbTest').VCLObject('cbTestEdit'))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="212"/>
+					<Prp name="datetime" type="D" value="43653.3425880556"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="225"/>
+					<Prp name="object left" type="I" value="18"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="304"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.edTest.edTestEdit.TcxCustomInnerTextEdit"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4675931481"/>
+			<Prp name="remarks" type="S" value="'sdfasnsdfsdf' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.edTest.edTestEdit.TcxCustomInnerTextEdit&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pMainPanel').VCLObject('edTest').VCLObject('edTestEdit').Window('TcxCustomInnerTextEdit', '', 1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 34">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="1"/>
+					<Prp name="datetime" type="D" value="43653.3426599306"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="11"/>
+					<Prp name="object bottom" type="I" value="55"/>
+					<Prp name="object left" type="I" value="1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="288"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.TcxComboBoxPopupWindow.TcxCustomLookupDBGrid"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="104"/>
+					<Prp name="image file name" type="S" value="visImage24.png"/>
+					<Prp name="click point x" type="I" value="101"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="104"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676603935"/>
+			<Prp name="remarks" type="S" value="A click at point (100, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.TcxComboBoxPopupWindow.TcxCustomLookupDBGrid&#xA;(Sys.Process('TestEnvironment(TD32)').Window('TcxComboBoxPopupWindow', '', 1).Window('TcxCustomLookupDBGrid', '', 1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 31">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="451"/>
+					<Prp name="datetime" type="D" value="43653.3426553935"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="463"/>
+					<Prp name="object bottom" type="I" value="475"/>
+					<Prp name="object left" type="I" value="330"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="405"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_peTest"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="95"/>
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+					<Prp name="click point x" type="I" value="367"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="95"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676566667"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_peTest&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pButtonsPanel').Window('TcxButton', 'Значение -&gt;', 4))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="539"/>
+					<Prp name="datetime" type="D" value="43653.3426253704"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="551"/>
+					<Prp name="object bottom" type="I" value="563"/>
+					<Prp name="object left" type="I" value="330"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="405"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_ccbTest"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="59"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="click point x" type="I" value="367"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="59"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676270139"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_ccbTest&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pButtonsPanel').Window('TcxButton', 'Значение -&gt;', 13))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 29">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="458"/>
+					<Prp name="datetime" type="D" value="43653.3426472917"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="461"/>
+					<Prp name="object bottom" type="I" value="479"/>
+					<Prp name="object left" type="I" value="37"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="284"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestProgress"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="93"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="click point x" type="I" value="77"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="93"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676481019"/>
+			<Prp name="remarks" type="S" value="A click at point (40, 3) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestProgress&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pMainPanel').VCLObject('peTest').VCLObject('peTestProgress'))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 38">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="640"/>
+					<Prp name="datetime" type="D" value="43653.3426679167"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="652"/>
+					<Prp name="object bottom" type="I" value="664"/>
+					<Prp name="object left" type="I" value="330"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="405"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_lueTest"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="110"/>
+					<Prp name="image file name" type="S" value="visImage28.png"/>
+					<Prp name="click point x" type="I" value="367"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="110"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676691898"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_lueTest&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pButtonsPanel').Window('TcxButton', 'Значение -&gt;', 9))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="544"/>
+					<Prp name="datetime" type="D" value="43653.34261875"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="554"/>
+					<Prp name="object bottom" type="I" value="565"/>
+					<Prp name="object left" type="I" value="15"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.ccbTest.ccbTestEdit"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="56"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="click point x" type="I" value="295"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="56"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676195602"/>
+			<Prp name="remarks" type="S" value="A click at point (280, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.ccbTest.ccbTestEdit&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pMainPanel').VCLObject('ccbTest').VCLObject('ccbTestEdit'))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 35">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="645"/>
+					<Prp name="datetime" type="D" value="43653.3426613194"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="655"/>
+					<Prp name="object bottom" type="I" value="666"/>
+					<Prp name="object left" type="I" value="15"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="106"/>
+					<Prp name="image file name" type="S" value="visImage25.png"/>
+					<Prp name="click point x" type="I" value="295"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="106"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676620139"/>
+			<Prp name="remarks" type="S" value="A click at point (280, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pMainPanel').VCLObject('lueTest').VCLObject('lueTestEdit'))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="message" type="S" value="Значение поля CheckBox выведено верно."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="43653.4676022917"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="line no" type="I" value="62"/>
+			<Prp name="message" type="S" value="Значение поля CheckComboBox выведено верно."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="43653.4676275926"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="622"/>
+					<Prp name="datetime" type="D" value="43653.342635"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="634"/>
+					<Prp name="object bottom" type="I" value="646"/>
+					<Prp name="object left" type="I" value="330"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="405"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_seTest"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="69"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="click point x" type="I" value="367"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="69"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676362731"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_seTest&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pButtonsPanel').Window('TcxButton', 'Значение -&gt;', 2))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 39">
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="line no" type="I" value="113"/>
+			<Prp name="message" type="S" value="Значение поля LookUpEdit выведено верно."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="43653.4676697685"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="message" type="S" value="The application &quot;C:\Users\Vyacheslav\Desktop\sportmaster\TestEnvironment(TD32).exe&quot; started."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="43653.4674943982"/>
+			<Prp name="remarks" type="S" value="The process ID is 4532."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 32">
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="line no" type="I" value="98"/>
+			<Prp name="message" type="S" value="Значение поля ProgressEdit выведено верно."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="43653.4676572454"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 36">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="645"/>
+					<Prp name="datetime" type="D" value="43653.3426629398"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="655"/>
+					<Prp name="object bottom" type="I" value="666"/>
+					<Prp name="object left" type="I" value="15"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="108"/>
+					<Prp name="image file name" type="S" value="visImage26.png"/>
+					<Prp name="click point x" type="I" value="275"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="108"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676635185"/>
+			<Prp name="remarks" type="S" value="A click at point (260, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pMainPanel').VCLObject('lueTest').VCLObject('lueTestEdit'))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="206"/>
+					<Prp name="datetime" type="D" value="43653.3425960417"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="218"/>
+					<Prp name="object bottom" type="I" value="230"/>
+					<Prp name="object left" type="I" value="330"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="405"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_edTest"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="click point x" type="I" value="367"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="27"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4675973148"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_edTest&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pButtonsPanel').Window('TcxButton', 'Значение -&gt;', 1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="line no" type="I" value="72"/>
+			<Prp name="message" type="S" value="Значение поля SpinEdit выведено верно."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="43653.4676368518"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="331"/>
+					<Prp name="datetime" type="D" value="43653.3426004398"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="343"/>
+					<Prp name="object bottom" type="I" value="355"/>
+					<Prp name="object left" type="I" value="330"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="405"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_cbTest"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="click point x" type="I" value="367"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.467601713"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_cbTest&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pButtonsPanel').Window('TcxButton', 'Значение -&gt;', 14))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 40">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="124"/>
+					<Prp name="datetime" type="D" value="43653.3426701157"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="724"/>
+					<Prp name="object bottom" type="I" value="738"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1366"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="117"/>
+					<Prp name="image file name" type="S" value="visImage29.png"/>
+					<Prp name="click point x" type="I" value="145"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="117"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676710417"/>
+			<Prp name="remarks" type="S" value="A click at point (145, 600) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 33">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="645"/>
+					<Prp name="datetime" type="D" value="43653.3426579398"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="655"/>
+					<Prp name="object bottom" type="I" value="666"/>
+					<Prp name="object left" type="I" value="15"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="102"/>
+					<Prp name="image file name" type="S" value="visImage23.png"/>
+					<Prp name="click point x" type="I" value="275"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="102"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676585185"/>
+			<Prp name="remarks" type="S" value="A click at point (260, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pMainPanel').VCLObject('lueTest').VCLObject('lueTestEdit'))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43653.3425585185"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="662"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="874"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="message" type="S" value="The 'FMain' window was maximized."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4675619907"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain'))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 37">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="1"/>
+					<Prp name="datetime" type="D" value="43653.3426644444"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="11"/>
+					<Prp name="object bottom" type="I" value="55"/>
+					<Prp name="object left" type="I" value="1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="288"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.TcxComboBoxPopupWindow.TcxCustomLookupDBGrid"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="109"/>
+					<Prp name="image file name" type="S" value="visImage27.png"/>
+					<Prp name="click point x" type="I" value="101"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="109"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676647917"/>
+			<Prp name="remarks" type="S" value="A click at point (100, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.TcxComboBoxPopupWindow.TcxCustomLookupDBGrid&#xA;(Sys.Process('TestEnvironment(TD32)').Window('TcxComboBoxPopupWindow', '', 1).Window('TcxCustomLookupDBGrid', '', 1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 26">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="1"/>
+					<Prp name="datetime" type="D" value="43653.3426405787"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="196"/>
+					<Prp name="object left" type="I" value="1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="189"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.TcxDateEditPopupWindow.TcxPopupCalendar"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="82"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="82"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676409259"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.TcxDateEditPopupWindow.TcxPopupCalendar&#xA;(Sys.Process('TestEnvironment(TD32)').Window('TcxDateEditPopupWindow', '', 1).Window('TcxPopupCalendar', '', 1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="505"/>
+					<Prp name="datetime" type="D" value="43653.3426090278"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="518"/>
+					<Prp name="object left" type="I" value="18"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="304"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.ceTest.ceTestEdit.TcxCustomInnerTextEdit"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="48"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="48"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676127315"/>
+			<Prp name="remarks" type="S" value="'7y2e5678' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.ceTest.ceTestEdit.TcxCustomInnerTextEdit&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pMainPanel').VCLObject('ceTest').VCLObject('ceTestEdit').Window('TcxCustomInnerTextEdit', '', 1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="144"/>
+					<Prp name="datetime" type="D" value="43653.3425745139"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="188"/>
+					<Prp name="object left" type="I" value="15"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.mTest.mTestEdit.TcxCustomInnerMemo"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="message" type="S" value="The window got focus."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4675754398"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.mTest.mTestEdit.TcxCustomInnerMemo&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pMainPanel').VCLObject('mTest').VCLObject('mTestEdit').Window('TcxCustomInnerMemo', '', 1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="627"/>
+					<Prp name="datetime" type="D" value="43653.3426307176"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="632"/>
+					<Prp name="object bottom" type="I" value="648"/>
+					<Prp name="object left" type="I" value="15"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="67"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="click point x" type="I" value="295"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="67"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676317593"/>
+			<Prp name="remarks" type="S" value="A click at point (280, 5) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pMainPanel').VCLObject('seTest').VCLObject('seTestEdit'))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 27">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="411"/>
+					<Prp name="datetime" type="D" value="43653.3426440509"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="423"/>
+					<Prp name="object bottom" type="I" value="435"/>
+					<Prp name="object left" type="I" value="330"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="405"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_deTest"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="86"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="click point x" type="I" value="367"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="86"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676460185"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_deTest&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pButtonsPanel').Window('TcxButton', 'Значение -&gt;', 10))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="331"/>
+					<Prp name="datetime" type="D" value="43653.3426065741"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="343"/>
+					<Prp name="object bottom" type="I" value="355"/>
+					<Prp name="object left" type="I" value="330"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="405"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_cbTest"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="41"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="click point x" type="I" value="367"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676078704"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton_cbTest&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pButtonsPanel').Window('TcxButton', 'Значение -&gt;', 14))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="line no" type="I" value="44"/>
+			<Prp name="message" type="S" value="Значение поля CheckBox выведено верно."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="43653.4676084491"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 25">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="416"/>
+					<Prp name="datetime" type="D" value="43653.3426380093"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="422"/>
+					<Prp name="object bottom" type="I" value="437"/>
+					<Prp name="object left" type="I" value="15"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="306"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.deTest.deTestEdit"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="78"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="click point x" type="I" value="296"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="78"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="43653.4676389583"/>
+			<Prp name="remarks" type="S" value="A click at point (281, 6) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.deTest.deTestEdit&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pMainPanel').VCLObject('deTest').VCLObject('deTestEdit'))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{08F398D5-C234-4B9D-A71C-A9AE0C0214EB}"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>
